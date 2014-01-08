@@ -1,0 +1,6 @@
+{
+  "name": "midi-js",
+  "description": "Creating piano sound using MIDI.js",
+  "version": "0.1.0",
+  "git": "https://github.com/clubfest/meteor-midi-js"
+}

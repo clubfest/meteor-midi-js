@@ -14,6 +14,7 @@ Package.on_use(function(api) {
     'lib/MIDI.js/inc/base64binary.js',
     'lib/MIDI.js/soundfont/acoustic_grand_piano-ogg.jss',
     'lib/MIDI.js/soundfont/acoustic_grand_piano-mp3.jss',
+    'load.js',
   ], 'client');
 
   if (typeof api.export !== 'undefined') {

@@ -5,7 +5,4 @@
   "author": "clubfest",
   "version": "0.1.0",
   "git": "https://github.com/clubfest/meteor-midi-js",
-  "packages": {
-    "another-cool-pkg": "0.1.1"
-  }
 }

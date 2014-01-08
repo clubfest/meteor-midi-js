@@ -3,14 +3,20 @@ meteor-midi-js
 
 MIDI.js is an api to create piano sound.
 
-To use it, use
+To install it in your meteor app, run this in the terminal
+
+```
+mrt add midi-js
+```
+
+To play some piano sound, first load it by calling
 
 ```
       MIDI.loadPlugin({
-       soundfontUrl: "/packages/midi-js/lib/MIDI.js/soundfont/",
-       instrument: "acoustic_grand_piano",
-       callback: function() {
-       console.log('MIDI.noteOn is defined')
+        soundfontUrl: "/packages/midi-js/lib/MIDI.js/soundfont/",
+        instrument: "acoustic_grand_piano",
+        callback: function() {
+          console.log('MIDI.noteOn is defined')
        },
       });
 ```
